@@ -1,0 +1,97 @@
+
+.head {
+    color: rgb(62, 191, 191);
+}
+.carousel{
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.main {
+    border-radius: 10px;
+}
+.text-color {
+    color: darkred;
+}
+.star {
+    color: hsl(130, 100%, 20%);
+}
+.icons {
+    gap: 15px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.btn {
+    margin-left: 80px;
+    border-radius: 20px;
+    color: darkcyan;
+    background-color: rgb(192, 236, 236);
+}
+.btn-style {
+    margin-top: 116px;
+    margin-left: 55px;
+}
+.email {
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+.why {
+    background-color: whitesmoke;
+}
+.search-bar {
+    border: none;
+    width: 600px;
+}
+.text-color {
+    color: darkred;
+}
+.img:hover {
+    transform: scale(1.2);
+}
+.img {
+    border-radius: 15px;
+}
+.input-width {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-left: 70px;
+    width: 120px;
+}
+.text-color {
+    color: darkred;
+}
+.btn-view {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.drp-down {
+    width: 26%;
+    border-color: red;
+}
+.text-color {
+    color: darkred;
+}
+.bt-more {
+
+    margin-top: 116px;
+    margin-left: 85px;
+}
+.subtotal {
+    margin-left: 200px;
+}
+.amount {
+    margin-left: 220px;
+}
+.main-amount {
+    margin-left: 250px;
+}
+.card {
+    background-color: whitesmoke;
+    border: none;
+}
+.vision {
+    margin-top: 100px;
+}
+.cart-value {
+    width: 26%;
+}
