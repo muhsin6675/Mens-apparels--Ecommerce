@@ -1,19 +1,31 @@
-
 .head {
-    color: rgb(62, 191, 191);
+    color: rgb(45, 171, 171);
 }
-.carousel{
-    border-radius: 20px 20px 20px 20px;
+
+.carousel {
+    border-radius: 5px 5px 5px 5px;
     overflow: hidden;
+    
 }
+.shop-car{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box {
+    box-shadow: 0.2em 0em 0.9em 0em gray;
+    border-radius:10px ;
+
+}
+.show{
+    box-shadow: 0.4em 0.4em 1.2em grey;
+}
+
 .main {
     border-radius: 10px;
 }
+
 .text-color {
     color: darkred;
-}
-.star {
-    color: hsl(130, 100%, 20%);
 }
 .icons {
     gap: 15px;
@@ -21,77 +33,147 @@
     margin-top: 25px;
     margin-bottom: 100px;
 }
-.btn {
-    margin-left: 80px;
-    border-radius: 20px;
-    color: darkcyan;
-    background-color: rgb(192, 236, 236);
-}
+
+
+
 .btn-style {
     margin-top: 116px;
     margin-left: 55px;
 }
+
 .email {
-    background-color: whitesmoke;
+    color:black;
+    background: linear-gradient(257deg, rgba(174,238,234,1) 0%, rgba(218,177,219,1) 100%);
     margin-top: 40px;
 }
-.why {
-    background-color: whitesmoke;
-}
+
 .search-bar {
-    border: none;
+
     width: 600px;
 }
+
 .text-color {
     color: darkred;
 }
+
 .img:hover {
     transform: scale(1.2);
 }
+
 .img {
     border-radius: 15px;
+
 }
+
 .input-width {
-    border: none;
-    border-bottom: 1px solid grey;
-    margin-left: 70px;
-    width: 120px;
+    
+    width: 210px;
 }
+
 .text-color {
     color: darkred;
 }
+
 .btn-view {
     margin-left: 70px;
     margin-top: 30px;
 }
+
 .drp-down {
     width: 26%;
     border-color: red;
 }
+
 .text-color {
     color: darkred;
 }
+
 .bt-more {
 
     margin-top: 116px;
     margin-left: 85px;
 }
-.subtotal {
-    margin-left: 200px;
-}
-.amount {
-    margin-left: 220px;
-}
-.main-amount {
-    margin-left: 250px;
-}
 .card {
     background-color: whitesmoke;
     border: none;
+    box-shadow: 0.2em 0em 0.9em 0em gray;
 }
+
 .vision {
     margin-top: 100px;
 }
+
 .cart-value {
     width: 26%;
+}
+
+
+/* image to image css */
+
+
+.shop{
+    height: 360px;
+    width: 300px;
+   
+   
+}
+
+.shop-div {
+    position: relative;
+    height:380px;
+     width:250px;
+    overflow: hidden;
+    border-radius: 3px;
+    
+    
+
+
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    width: 250px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+.shop:hover .overlay {
+    opacity: 1;
+  }
+  .text img{
+    height: 400px;
+    width: 300px;
+  position: absolute;
+  
+}
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .shop:hover .add-cart{
+    opacity: 1;
+  }
+  .shop-div img {
+    width: 250px;
+    height: 280px;
+   
+    transition: transform 0.3s ease-in-out;
+  }
+  .add-bag{
+    width: 250px;
+    text-align: center;
+    background-color: rgb(148, 207, 211);
+}
+.shop-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
