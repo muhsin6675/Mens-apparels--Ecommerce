@@ -44,11 +44,9 @@
 .email {
     color:black;
     background: linear-gradient(257deg, rgba(174,238,234,1) 0%, rgba(218,177,219,1) 100%);
-    margin-top: 40px;
 }
 
 .search-bar {
-
     width: 600px;
 }
 
@@ -66,12 +64,7 @@
 }
 
 .input-width {
-    
     width: 210px;
-}
-
-.text-color {
-    color: darkred;
 }
 
 .btn-view {
@@ -84,9 +77,6 @@
     border-color: red;
 }
 
-.text-color {
-    color: darkred;
-}
 
 .bt-more {
 
@@ -105,7 +95,12 @@
 
 .cart-value {
     width: 26%;
+    
 }
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;} */
 
 
 /* image to image css */
@@ -163,7 +158,7 @@
   }
   .shop-div img {
     width: 250px;
-    height: 280px;
+    height: 290px;
    
     transition: transform 0.3s ease-in-out;
   }
